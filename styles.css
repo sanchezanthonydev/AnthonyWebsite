@@ -1,0 +1,56 @@
+* {
+    background-color: #d7dbda;
+    text-decoration: none;
+    
+}
+
+*, .dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+
+  .nav, a {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .name {
+    font-size: 4rem;
+    color: #43290e;
+  }
+
+  .links {
+    color: #ad4b02;
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+
+  .links:hover {
+    color: #873b02;
+  }
+
+  .socials {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .images-socials {
+    height: 30px;
+    width: 30px;
+  }
+
+  .images-socials:hover {
+    opacity: 60%;
+  }
