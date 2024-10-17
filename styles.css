@@ -1,56 +1,123 @@
 * {
     background-color: #d7dbda;
     text-decoration: none;
-    
+
 }
 
-*, .dela-gothic-one-regular {
+*,
+.dela-gothic-one-regular {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  html, body {
+}
+
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    align-content: center;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  .nav, a {
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nav,
+a {
     display: flex;
     justify-content: center;
 
-  }
+}
 
-  .name {
+.name {
     font-size: 4rem;
     color: #43290e;
-  }
+}
 
-  .links {
+.links {
     color: #ad4b02;
     font-size: 3rem;
-    margin-top: 50px;
-  }
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+}
 
-  .links:hover {
+.links:hover {
     color: #873b02;
-  }
+}
 
-  .socials {
-    display: flex;
-    margin-top: 40px;
-    gap: 20px;
+.socials {
     justify-content: center;
-  }
+    list-style: none;
+    padding-top: 80px;
+}
 
-  .images-socials {
+.socials,
+li {
+    margin-top: 20px;
+}
+
+.images-socials {
     height: 30px;
     width: 30px;
-  }
+}
 
-  .images-socials:hover {
+.images-socials:hover {
     opacity: 60%;
-  }
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: flex-start; /* Align children to the start horizontally */
+    justify-content: flex-start; /* Align children to the top vertically */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a3b2b5;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    max-height: 80vh;
+    padding: 20px;
+    z-index: 9999;
+    overflow: auto;
+    padding: 50px;
+    font-size: 1.2rem;
+}
+
+#resume-container a {
+    background-color: #a3b2b5;
+    color: black;
+}
+
+#resume-container p,
+#resume-container h1,
+#resume-container h2,
+#resume-container h3,
+#resume-container ul,
+#resume-container li,
+#resume-container em {
+    background-color: #a3b2b5;
+}
+
+#resume-container h1 {
+    color: #43290e;
+}
+
+#resume-container h2, #resume-container h3 {
+    color: #ad4b02;
+}
