@@ -121,3 +121,10 @@ li {
 #resume-container h2, #resume-container h3 {
     color: #ad4b02;
 }
+
+
+#resume-container,
+#project-container,
+#about-container {
+    display: none; /* Hide all containers initially */
+}
